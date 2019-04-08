@@ -1,0 +1,2 @@
+# DesignPatternSampleForC-
+Design Pattern Sample
