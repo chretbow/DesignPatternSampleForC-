@@ -1,6 +1,6 @@
 ﻿namespace SimpleFactoryPattern.SimpleFactory
 {
-    public class Operation
+    public abstract class Operation
     {
         private double numberA = 0;
         private double numberB = 0;
@@ -17,10 +17,6 @@
             set { numberB = value; }
         }
 
-        public virtual double GetResult()
-        {
-            double result = 0;
-            return result;
-        }
+        public abstract double GetResult();
     }
 }
